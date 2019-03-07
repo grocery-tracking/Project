@@ -1,0 +1,81 @@
+body {
+	background-color: #E6E6FF;
+	overflow-x: hidden;
+	font-family: 'Martel', sans-serif;
+}
+
+
+.page-title {
+	text-align: center;
+	color: #6A5ACD;
+	font-size: 25px;
+	position: relative;
+	top: 15px;
+}
+
+.quote {
+	text-align: center;
+	font-style: italic;
+	font-size:23px;
+	position:relative;
+	bottom:10px;
+}
+
+.share-a-recipe{
+	height: 40%;
+	width: 30%;
+	float: left;
+	background-color: #6A5ACD;
+	margin-left: 15%;
+}
+
+.find-a-recipe{
+	height: 40%;
+	width: 30%;
+	float: right;
+	background-color: #6A5ACD;
+	margin-right: 15%;
+
+	
+}
+.Schedule-a-Trip{
+	height: 40%;
+	width: 30%;
+	float: left;
+	background-color: #6A5ACD;
+	margin-left: 15%;
+	margin-top: 7%;
+
+}
+.Find-a-Grocery-Store{
+	height: 40%;
+	width: 30%;
+	float: right;
+	background-color: #6A5ACD;
+	margin-right: 15%;
+	margin-top: 7%;
+	margin-bottom:4%;
+	
+}
+.art{
+	margin-top: 0%;
+	height: 80%;
+	width:100%;
+}
+.feature{
+	
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	text-shadow:2px 2px black;
+}
+#underline{
+	text-decoration: none;
+}
+
+.Find-a-Grocery-Store .feature:hover {
+	font-size:38px;
+	position:relative;
+	bottom:5px;
+}
+
