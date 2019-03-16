@@ -1,0 +1,63 @@
+<html>
+<header>
+<title>Share a Recipe</title>
+<link rel="stylesheet" type="text/css" href="recipe_share.css"/>
+<link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet">
+</header>
+<body>
+	
+	<button id="return" onclick="window.location='FrontPage.html'">Return to Home Page</button>
+
+	<div class = "page-title">
+		<h1>Share a Recipe</h1>
+	</div>
+
+	<div class = "complete_wrapper">
+		<form action="FrontPage.html" onsubmit="alert('Submitted Successfully!')">
+		<div class = "wrapper_left">
+			<div class = "name">
+		Your name:<br>
+		<input type="text" id = "input_name" name="name" placeholder="First Last" autocomplete="off" required="required"><br>
+			</div>
+
+			<div class="preptime">
+		Prep Time (in minutes):<br>
+		<input type="number" id="input_prep_time" autocomplete="off" min="0" required="required"><br>
+			</div>
+		
+			<div class = "recname">
+		Recipe name:<br>
+		<input type="text" id = "input_recipe_name" name="recipename" autocomplete="off" required="required"><br>
+			</div>
+
+		<div class="ing">
+		Ingredients:<br>
+		<textarea rows="14" cols="21" required="required"></textarea><br>
+		</div>
+
+		</div>
+		<div class = "wrapper_right">
+			<div class="level">
+		Difficulty level:<br>
+		<input type="radio" name="level" value="novice" required="required">Novice<br>
+		<input type="radio" name="level" value="souschef">Sous Chef<br>
+		<input type="radio" name="level" value="executivechef">Executive Chef<br>
+		</div>
+
+		<div class="proc">
+		Procedure:<br>
+		<textarea rows="18" cols="22" placeholder="Number each step" required="required"></textarea><br>
+		</div>
+
+
+		<input type = "submit" id="submitbutton">
+
+		
+		</div>
+
+	</form>
+		
+	</div>
+
+</body>
+</html>
