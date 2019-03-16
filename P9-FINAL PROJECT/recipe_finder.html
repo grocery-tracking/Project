@@ -1,0 +1,124 @@
+<html>
+<header>
+<title>Find a Recipe</title>
+<link rel="stylesheet" type="text/css" href="recipe_finder.css"/>
+<link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet">
+</header>
+<body>
+
+	<button id="return" onclick="window.location='FrontPage.html'">Return to Home Page</button>
+
+	<div class = "pagetitle">
+    <h1>Find a Recipe</h1>
+  </div>
+
+	<div class = "search_1">
+		<div class="recheading">
+    <h1>Search by Name</h1>
+  </div>
+  <input type="text" id="myInput" onkeyup="myFunction()" autocomplete="off" placeholder="Enter a recipe name...">
+
+
+<div class="table">
+<table id="myTable">
+  <tr class="header">
+    <th class = "recipename">Available Recipes</th>
+    <th class = "inglist" hidden>Ingredients</th>
+  </tr>
+  <tr>
+    <td> <a href="ScrambledEggs.html" target="_blank">Scrambled Eggs</td>
+    <td hidden>eggs, salt, pepper</td>
+  </tr>
+  <tr>
+    <td><a href="Sandwich.html" target="_blank">Sandwich</td>
+    <td hidden>bread, cheese, cucumber</td>
+  </tr>
+  <tr>
+    <td><a href="EggsBenedict.html" target="_blank">Eggs Benedict</td>
+    <td hidden>eggs, bacon, spinach, hollandaise</td>
+  </tr>
+ 
+</table>
+</div>
+
+	</div>
+
+	<div class = "search_2">
+
+		<div class="ingheading">
+    <h1> Search by Ingredient</h1>
+  </div>
+
+
+
+		<input type="text" id="myInput2" onkeyup="myFunction2()" placeholder="Enter ingredient(s)...">
+
+  
+<div class="table2">
+<table id="myTable2">
+  <tr class="header">
+    <th class = "recipename1">Available Recipes</th>
+    <th class = "inglist1" hidden>Ingredients</th>
+  </tr>
+  <tr>
+    <td> <a href="ScrambledEggs.html" target="_blank">Scrambled Eggs</td>
+    <td hidden>eggs, salt, pepper</td>
+  </tr>
+  <tr>
+    <td><a href="Sandwich.html" target="_blank">Sandwich</td>
+    <td hidden>bread, cheese, cucumber</td>
+  </tr>
+  <tr>
+    <td><a href="EggsBenedict.html" target="_blank">Eggs Benedict</td>
+    <td hidden>eggs, bacon, spinach, hollandaise</td>
+  </tr>
+ 
+</table>
+</div>
+	</div>
+
+	<div class = "search_3">
+		<div class="diffheading">
+    <h1>Filter by Difficulty Level</h1>
+  </div>
+
+		<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('novice')"> Novice</button>
+    <button class="btn" onclick="filterSelection('sous-chef')"> Sous Chef</button>
+    <button class="btn" onclick="filterSelection('executive-chef')"> Executive Chef</button>
+  </div>
+
+<div class="container">
+  <a href="ScrambledEggs.html" target="_blank"><div class="filterDiv novice" >Scrambled Eggs</a></div>
+  <a href="Sandwich.html" target="_blank"><div class="filterDiv sous-chef">Sandwich</a></div>
+  <a href="EggsBenedict.html" target="_blank"><div class="filterDiv executive-chef">Eggs Benedict</a></div>
+</div>
+	</div>
+
+	<div class = "search_4">
+
+	<div class="prepheading">
+    <h1>Filter by Prep Time</h1>
+  </div>
+  <div id="myBtnContainer2">
+  <button class="btn2 active1" onclick="filterSelection1('all')">Show all</button>
+  <button class="btn2" onclick="filterSelection1('<30')"> < 30 minutes</button>
+  <button class="btn2" onclick="filterSelection1('30-60')">30-60 minutes</button>
+  <button class="btn2" onclick="filterSelection1('>60')"> > 60 minutes</button>
+</div>
+
+
+<div class="container2">
+  <a href="ScrambledEggs.html" target="_blank"><div class="filterDiv2 <30">Scrambled Eggs</a></div>
+  <a href="EggsBenedict.html" target="_blank"><div class="filterDiv2 30-60">Eggs Benedict</a></div>
+  <a href="Sandwich.html" target="_blank"><div class="filterDiv2 <30">Sandwich</a></div>
+  <div class="filterDiv2 >60"></div>
+</div>
+
+
+</div>
+
+<script src="table.js"></script>
+</body>
+</html>

@@ -1,0 +1,306 @@
+body {
+  background-color: #E6E6FF;
+  overflow-x: hidden;
+  font-family: 'Martel', sans-serif;
+}
+
+
+#return  {
+	border-radius:30px;
+	cursor:pointer;
+	font-size:15px;
+	background-color: #6A5ACD;
+	color:white;
+	width:180px;
+	height:50px;
+	box-shadow: 2px 2px gray;
+  outline:none;
+
+		
+	
+	
+}
+
+button:active {
+	transform: translateY(4px);
+}
+
+
+.pagetitle {
+  text-align:center;
+  color: #6A5ACD;
+  font-size: 25px;
+  margin-top: -6.5%;
+}
+
+.search_1{
+	height: 50%;
+	width: 50%;
+	float: left;
+
+	
+}
+
+.search_2{
+	height: 50%;
+	width: 50%;
+	float: right;
+
+	
+}
+
+.search_3{
+	height: 50%;
+	width: 50%;
+	float: left;
+  margin:auto;
+	
+
+}
+
+.search_4{
+	height: 50%;
+	width: 50%;
+	float: right;
+	
+}
+
+.recheading {
+  font-size:15px;
+  margin-left: 17.5%;
+  margin-top: 1%;
+}
+
+.table {
+  margin-top: 5%;
+
+}
+
+a:visited {
+  color:blue;
+}
+
+.recipename {
+
+color:black;
+
+}
+
+.inglist {
+  width:30%;
+}
+
+#myInput {
+  width: 60%;
+  height: 10%;
+  margin-left: 17.5%;
+padding-left:3px;
+  
+  font-size: 16px;
+  
+  border: 1px solid #ddd;
+
+}
+
+#myTable {
+
+  border-collapse: collapse; /* Collapse borders */
+  width: 60%; 
+  border: 1px solid black; 
+  font-size: 18px; 
+  margin-left: 17.5%
+
+
+}
+
+#myTable th, #myTable td {
+  text-align: left; 
+  padding: 3.5%; 
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid black; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: white;
+}
+
+.table2 {
+  
+  margin-top: 5%;
+}
+
+a:visited {
+  color:blue;
+}
+
+.recipename1 {
+color:black;
+}
+
+.inglist1 {
+  width:30%;
+
+}
+
+#myInput2 {
+  width: 60%;
+  height: 10%;
+  margin-left: 22.5%;
+  padding-left:3px;
+
+  
+  font-size: 16px;
+  
+  border: 1px solid #ddd;
+
+}
+
+#myTable2 {
+  border-collapse: collapse; /* Collapse borders */
+  width: 60%; 
+  border: 1px solid black; 
+  font-size: 18px; 
+  margin-left: 22.5%
+
+}
+
+#myTable2 th, #myTable2 td {
+  text-align: left; 
+  padding: 3.5%; 
+}
+
+#myTable2 tr {
+  border-bottom: 1px solid black; 
+}
+
+#myTable2 tr.header, #myTable2 tr:hover td {
+  background-color: white;
+}
+
+.ingheading {
+  font-size:15px;
+  margin-left: 22.5%;
+ 
+}
+
+.diffheading {
+  font-size:15px;
+  margin-left: 17.5%;
+  margin-top: 20%;
+  
+}
+
+.prepheading {
+  font-size:15px;
+  margin-left: 22.5%;
+  margin-top: 20%;
+  
+
+}
+
+.filterDiv {
+  
+  
+  background-color: #6A5ACD;
+  color: #ffffff;
+  width: 46%;
+  line-height: 200%;
+  text-align: center;
+  margin-top: 2%;
+  display: none;
+}
+
+#myBtnContainer {
+  margin-left: 17.5%;
+
+ 
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 3% 4%;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.container {
+	margin-top: 2%;
+	margin-left: 17.5%; 
+  margin-bottom:2%;
+  	overflow: hidden;
+}
+
+.container2 {
+ margin-top: 2%;
+ margin-bottom:2%;
+	margin-left: 22.5%; 
+  
+  	overflow: hidden;
+}
+
+
+#myBtnContainer2 {
+  margin-left: 22.5%;
+
+}
+
+.filterDiv2 {
+  background-color: #6A5ACD;
+  color: #ffffff;
+  width: 46%;
+  line-height: 200%;
+  text-align: center;
+  margin-top: 2%;
+  display: none;
+
+}
+
+.btn2 {
+ border: none;
+  outline: none;
+  padding: 3% 4%;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #ddd;
+}
+
+.btn2.active1 {
+  background-color: #666;
+  color: white;
+}
+
+.show1 {
+  display:block;
+}
+
+.container a {
+  text-decoration: none;
+  color:white;
+}
+
+.container2 a {
+  text-decoration: none;
+  color: white;
+}
+
+
